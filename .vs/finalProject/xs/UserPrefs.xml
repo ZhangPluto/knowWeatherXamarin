@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{00BB8423-3B83-44E0-9128-B1AA5B690E00}|Default">
+  <MonoDevelop.Ide.ItemProperties.finalProject.Android PreferredExecutionTarget="Android.pixel_3a_xl_q_10_0_-_api_29" />
+  <MonoDevelop.Ide.ItemProperties.finalProject.iOS Xamarin.HotReload.DebuggerTimeoutException.finalProject.iOS.HideInfoBar="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.40B1E725-107E-4550-A9D2-833FFD712FFF" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/MainPage.xaml.cs">
+    <Files>
+      <File FileName="finalProject/model/MainWeather.cs" Line="35" Column="17" />
+      <File FileName="finalProject/model/MainInfo.cs" Line="51" Column="47" />
+      <File FileName="finalProject/model/Coord.cs" Line="34" Column="9" />
+      <File FileName="finalProject/model/City.cs" Line="32" Column="1" />
+      <File FileName="finalProject/model/Clouds.cs" Line="33" Column="9" />
+      <File FileName="finalProject/model/Sys.cs" Line="44" Column="47" />
+      <File FileName="finalProject/model/Weather.cs" Line="43" Column="43" />
+      <File FileName="finalProject/model/Wind.cs" Line="40" Column="46" />
+      <File FileName="finalProject/MainPage.xaml.cs" Line="124" Column="46" />
+      <File FileName="finalProject.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="finalProject/MainPage.xaml" Line="18" Column="23" />
+      <File FileName="finalProject/model/allAccess.cs" Line="34" Column="46" />
+      <File FileName="finalProject.iOS/Info.plist" />
+      <File FileName="finalProject/model/FirebaseHealper.cs" Line="54" Column="1" />
+      <File FileName="finalProject/logIn.xaml.cs" Line="41" Column="1" />
+      <File FileName="finalProject/logIn.xaml" Line="14" Column="58" />
+      <File FileName="finalProject/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="finalProject/SignIn.xaml" Line="18" Column="160" />
+      <File FileName="finalProject/SignIn.xaml.cs" Line="46" Column="110" />
+      <File FileName="finalProject/listOfCity.xaml" Line="9" Column="112" />
+      <File FileName="finalProject/listOfCity.xaml.cs" Line="65" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="finalProject" expanded="True">
+            <Node name="finalProject" expanded="True">
+              <Node name="model" expanded="True" />
+              <Node name="listOfCity.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="finalProject.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="finalProject.listOfCity"
+    BackgroundColor="DarkBlue"
+    >
+    <StackLayout BackgroundColor="DarkBlue" Margin="20">
+        <Label Text="Bookmark City" TextColor="Yellow" Margin="0,20,0,0" FontSize="Title" FontAttributes="Bold"/>
+        <ListView x:Name="cityListView" ItemSelected="cityListView_ItemSelected" BackgroundColor="DarkBlue">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding CityName}" TextColor="Yellow" VerticalOptions="CenterAndExpand" FontSize="Subtitle"/>
+                            <Label Text=">" TextColor="Yellow" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" FontSize="Subtitle"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+        <Button Text="Go Back to Main Page" TextColor="Yellow" FontSize="Title" BorderColor="Yellow" HorizontalOptions="CenterAndExpand" x:Name="goToMainPage" Clicked="goToMainPage_Clicked"/>
+    </StackLayout>
+</ContentPage>

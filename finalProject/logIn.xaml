@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="finalProject.logIn"
+    BackgroundColor="DarkBlue">
+    <StackLayout Margin="15" >
+        <StackLayout Orientation="Vertical" Margin="0,30,0,0">
+            <Label Text="Please Log In:" TextColor="Yellow" FontAttributes="Bold" FontSize="Title" HorizontalOptions="CenterAndExpand"></Label>
+        </StackLayout>
+        <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Email: " TextColor="Yellow" FontAttributes="Bold" ></Label>
+                <Entry x:Name="email" Placeholder="Email: " HorizontalOptions="EndAndExpand" WidthRequest="240" HeightRequest="30" BackgroundColor="White"></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Password: " TextColor="Yellow" FontAttributes="Bold" ></Label>
+                <Entry x:Name="password" Placeholder="Password " HorizontalOptions="EndAndExpand" WidthRequest="240" HeightRequest="30" BackgroundColor="White"></Entry>
+            </StackLayout>
+            <Button x:Name="logInButton" WidthRequest="300" Text="Log In" TextColor="Yellow" FontSize="Subtitle" Clicked="logInButton_Clicked" Margin="0,40,0,0"/>
+            <Button x:Name="backButton" WidthRequest="300" Text="Back to Main Page" TextColor="Yellow" FontSize="Subtitle" Clicked="backButton_Clicked"/>
+            <Button x:Name="signInButton" WidthRequest="300" Text="Do not have account? Sign in here" TextColor="Yellow" FontSize="Medium" Clicked="signInButton_Clicked"/>
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

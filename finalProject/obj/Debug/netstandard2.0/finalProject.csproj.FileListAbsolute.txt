@@ -1,0 +1,17 @@
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/bin/Debug/netstandard2.0/finalProject.deps.json
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/bin/Debug/netstandard2.0/finalProject.dll
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/bin/Debug/netstandard2.0/ref/finalProject.dll
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/bin/Debug/netstandard2.0/finalProject.pdb
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/obj/Debug/netstandard2.0/finalProject.csprojAssemblyReference.cache
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/obj/Debug/netstandard2.0/finalProject.AssemblyInfoInputs.cache
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/obj/Debug/netstandard2.0/finalProject.AssemblyInfo.cs
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/obj/Debug/netstandard2.0/finalProject.csproj.CoreCompileInputs.cache
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/obj/Debug/netstandard2.0/finalProject.dll
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/obj/Debug/netstandard2.0/ref/finalProject.dll
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/obj/Debug/netstandard2.0/finalProject.pdb
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/obj/Debug/netstandard2.0/logIn.xaml.g.cs
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/obj/Debug/netstandard2.0/listOfCity.xaml.g.cs
+/Users/renhaozhang/Documents/myFolder/LaSalle/Winter_2021/MultiplaateFormMobile/finalProject/finalProject/obj/Debug/netstandard2.0/SignIn.xaml.g.cs

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="finalProject.MainPage"
+    BackgroundColor="DarkBlue">
+    <StackLayout Margin="15" >
+        <StackLayout Orientation="Horizontal" Margin="0,20,0,0">
+            <Label Text="City: " HorizontalOptions="Start" VerticalOptions="CenterAndExpand" TextColor="Yellow" FontAttributes="Bold"></Label>
+            <Entry x:Name="cityName" Placeholder="Enter city name " VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" WidthRequest="240" HeightRequest="30" BackgroundColor="White"></Entry>
+            <Button Text="Search" HorizontalOptions="End" x:Name="searchCityButton" Clicked="searchCityButton_Clicked" VerticalOptions="CenterAndExpand" TextColor="Yellow" FontAttributes="Bold"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
+            <Button x:Name="reload" Text="Reload to my location" TextColor="Yellow" Clicked="reload_Clicked" HorizontalOptions="CenterAndExpand" FontSize="Medium"/>
+            <Button Text="Mark this city" x:Name="likeCity" TextColor="Yellow" Clicked="likeCity_Clicked" HorizontalOptions="EndAndExpand" FontSize="Subtitle"/>
+            
+        </StackLayout>
+
+        <StackLayout Spacing="1" Orientation="Vertical"  Margin="0,5,0,0">
+            <Label HorizontalOptions="Fill" Text="Location:" FontSize="Subtitle" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Yellow"></Label>
+            <Label x:Name="Location" HorizontalOptions="Fill" Text="NULL" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="Title" TextColor="Yellow"></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Padding="10,20,10,2">
+            <Label HorizontalOptions="Fill" Text="Current Date:" VerticalOptions="CenterAndExpand" TextColor="Yellow" WidthRequest="100" FontSize="Large" FontAttributes="Bold"></Label>
+            <Label x:Name="currentDate" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="1970/01/01" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="Title" TextColor="Yellow" Margin="10,0,0,0"></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Padding="10,20,10,2">
+            <Label HorizontalOptions="Fill" Text="Current Weather:" VerticalOptions="CenterAndExpand" TextColor="Yellow" WidthRequest="100" FontSize="Large" FontAttributes="Bold"></Label>
+            <Label x:Name="currentWeather" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="NULL" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="Subtitle" TextColor="Yellow" Margin="10,0,0,0"></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Padding="10,20,10,2">
+            <Label HorizontalOptions="Fill" Text="Current Temp:" VerticalOptions="CenterAndExpand" TextColor="Yellow" WidthRequest="120" FontSize="Large" FontAttributes="Bold"></Label>
+            <Label x:Name="currentTemp" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="NULL" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="Title" TextColor="Yellow" Margin="10,0,0,0"></Label>
+            <Label HorizontalOptions="EndAndExpand" Text="°C" VerticalOptions="CenterAndExpand" TextColor="Yellow" WidthRequest="100" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Start"></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Padding="10,20,10,2">
+            <Label HorizontalOptions="Fill" Text="Fells like:" VerticalOptions="CenterAndExpand" TextColor="Yellow" WidthRequest="120" FontSize="Large" FontAttributes="Bold"></Label>
+            <Label x:Name="fellTemp" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="NULL" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="Title" TextColor="Yellow" Margin="10,0,0,0"></Label>
+            <Label HorizontalOptions="EndAndExpand" Text="°C" VerticalOptions="CenterAndExpand" TextColor="Yellow" WidthRequest="100" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Start"></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Padding="10,20,10,2">
+            <Label HorizontalOptions="Fill" Text="Max Temp:" VerticalOptions="CenterAndExpand" TextColor="Yellow" WidthRequest="120" FontSize="Large" FontAttributes="Bold"></Label>
+            <Label x:Name="maxTemp" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="NULL" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="Title" TextColor="Yellow" Margin="10,0,0,0"></Label>
+            <Label HorizontalOptions="EndAndExpand" Text="°C" VerticalOptions="CenterAndExpand" TextColor="Yellow" WidthRequest="100" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Start"></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Padding="10,20,10,2">
+            <Label HorizontalOptions="Fill" Text="Min Temp:" VerticalOptions="CenterAndExpand" TextColor="Yellow" WidthRequest="120" FontSize="Large" FontAttributes="Bold"></Label>
+            <Label x:Name="minTemp" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="NULL" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="Title" TextColor="Yellow" Margin="10,0,0,0"></Label>
+            <Label HorizontalOptions="EndAndExpand" Text="°C" VerticalOptions="CenterAndExpand" TextColor="Yellow" WidthRequest="100" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Start"></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Vertical" Margin="20,20,20,20">
+            <Button Text="Log In" TextColor="Yellow" FontSize="Title" BorderColor="Yellow" HorizontalOptions="CenterAndExpand" x:Name="logIn" Clicked="logIn_Clicked"/>
+            <Button Text="Go To City List" TextColor="Yellow" FontSize="Title" BorderColor="Yellow" HorizontalOptions="CenterAndExpand" x:Name="goToCityList" Clicked="goToCityList_Clicked"/>
+            <Button Text="Log Out" TextColor="Yellow" FontSize="Title" BorderColor="Yellow" HorizontalOptions="CenterAndExpand" x:Name="logOut" Clicked="logOut_Clicked"/>
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>
