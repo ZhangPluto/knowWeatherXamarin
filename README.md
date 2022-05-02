@@ -4,6 +4,7 @@
 - API: openmapweather.
 - Database: Firebase (Use email and password to log in, Mark city)
 - [Download resourse](https://github.com/ZhangPluto/xamarinWeatherApplication.git)
+- The project can display the time, name, temperature, visibility and other information of the current location in real time, while the project allows you to check the weather information of other cities, you can also add your frequently visited cities in the favorites list for quick viewing.
 
 ## Set up
 - You need to go to this website to register and use your own API: [Click here to register](https://openweathermap.org/)
